@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: gihan4/k8sapp:{{ .Values.VER }}
+          image: gihan4/helmredis:{{ .Values.VER }}
           ports:
             - containerPort: 5000
 ---
